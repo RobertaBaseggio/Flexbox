@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    display: flex;
+    flex-direction: row;
+
+   /* align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    align-content:center;*/
+}
+
+.box {
+    width: 200px;
+    height: 60px;
+    margin: 5px;
+
+    flex-shrink: 0;
+    
+}
+
+.red {
+    
+    background: red;
+    order: 1;
+}
+.green {
+  
+    background: green;
+    order: 2;
+}
+.blue {
+   
+    background: blue;
+    order: 0;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+    margin:0;
+}
+
